@@ -1,38 +1,36 @@
-# rick-morty-example-01
+# Rick and Morty Characters App
 
-This template should help get you started developing with Vue 3 in Vite.
+Este es un proyecto de ejemplo desarrollado con **Vue 3** y **Vite**, que consume la API de Rick and Morty para mostrar un listado de personajes con un diseño moderno y responsivo.
 
-## Recommended IDE Setup
+## 🚀 Características
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue 3 (Composition API)**: Estructura moderna y reactiva.
+- **SCSS (SASS)**: Estilos avanzados y modularizados con variables dinámicas.
+- **Tematización Dinámica**: Soporte para Modo Oscuro y Modo Claro con persistencia en `localStorage`.
+- **Diseño Responsivo**: Adaptado para móviles, tablets y escritorio.
+- **Navegación**: Gestión de rutas con `Vue Router` (History Mode).
+- **Iconos Profesionales**: Integración con la librería `Lucide Vue Next`.
 
-## Recommended Browser Setup
+## 🛠️ Tecnologías utilizadas
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- [Vue.js 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [SASS/SCSS](https://sass-lang.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [Rick and Morty API](https://rickandmortyapi.com/)
 
-## Customize configuration
+## 📦 Instalación
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. Clona el repositorio.
+2. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+3. Ejecuta el proyecto en modo desarrollo:
+   ```sh
+   npm run dev
+   ```
 
-## Project Setup
+## 📜 Autor
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Desarrollado por **Juan Manuel Pinto**.
