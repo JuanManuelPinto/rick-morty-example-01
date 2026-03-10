@@ -27,6 +27,7 @@ onMounted(() => {
     </div>
     <nav class="nav">
       <router-link to="/" class="nav-link">Home</router-link>
+      <router-link to="/table" class="nav-link">Table</router-link>
       <router-link to="/about" class="nav-link">About</router-link>
       <button @click="toggleTheme" class="theme-toggle" :title="isDark ? 'Modo Claro' : 'Modo Oscuro'">
         <Sun v-if="isDark" class="icon" />
