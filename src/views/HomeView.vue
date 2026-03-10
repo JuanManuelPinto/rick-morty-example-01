@@ -19,9 +19,7 @@ onMounted(async () => {
         v-for="character in characters" 
         :key="character.id"
         cols="12"    
-        sm="6"       
-        md="4"       
-        lg="3"       
+        md="6"       
       >
         <CharacterCard :character="character" />
       </v-col>

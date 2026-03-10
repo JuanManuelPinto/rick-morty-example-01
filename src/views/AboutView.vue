@@ -1,17 +1,15 @@
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const totalCharacters = ref(826);
-const createdBy = ref('Juan Manuel Pinto');
+const createdBy = ref("Juan Manuel Pinto");
 </script>
 
 <template>
   <div class="about-view">
     <div class="about-card">
       <h2 class="title">Sobre este proyecto</h2>
-      <p class="description">
-        Proyecto creado con VUE 3 y SCSS.
-      </p>
+      <p class="description">Proyecto creado con VUE 3 y SCSS.</p>
 
       <div class="stats">
         <div class="stat-item">
@@ -25,15 +23,20 @@ const createdBy = ref('Juan Manuel Pinto');
       </div>
 
       <div class="footer">
-        <p>Desarrollado por <span class="author">{{ createdBy }}</span></p>
-        <a href="https://rickandmortyapi.com/" target="_blank" rel="noopener" class="api-link">
+        <p>
+          Desarrollado por <span class="author">{{ createdBy }}</span>
+        </p>
+        <a
+          href="https://rickandmortyapi.com/"
+          target="_blank"
+          rel="noopener"
+          class="api-link"
+        >
           Rick and Morty API
         </a>
       </div>
 
-      <router-link to="/" class="btn-back">
-        ← Volver al Inicio
-      </router-link>
+      <router-link to="/" class="btn-back"> ← Volver al Inicio </router-link>
     </div>
   </div>
 </template>
@@ -58,7 +61,9 @@ const createdBy = ref('Juan Manuel Pinto');
     text-align: center;
     box-shadow: 0 10px 30px var(--card-shadow);
     border: 1px solid rgba(151, 206, 76, 0.2);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    transition:
+      background-color 0.3s ease,
+      box-shadow 0.3s ease;
 
     @media (max-width: 640px) {
       padding: 2rem 1.5rem;
@@ -126,7 +131,7 @@ const createdBy = ref('Juan Manuel Pinto');
 
     .footer {
       margin-bottom: 2rem;
-      
+
       .author {
         color: $primary;
         font-weight: bold;
