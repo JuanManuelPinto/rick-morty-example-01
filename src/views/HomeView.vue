@@ -12,16 +12,21 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="home-view">
+  <v-container class="home-view">
     <h1 class="title">Rick and Morty Characters</h1>
-    <div class="character-grid">
-      <CharacterCard
-        v-for="character in characters"
+    <v-row>
+      <v-col 
+        v-for="character in characters" 
         :key="character.id"
-        :character="character"
-      />
-    </div>
-  </div>
+        cols="12"    
+        sm="6"       
+        md="4"       
+        lg="3"       
+      >
+        <CharacterCard :character="character" />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <style scoped lang="scss">
